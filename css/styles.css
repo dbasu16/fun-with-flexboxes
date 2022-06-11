@@ -1,0 +1,73 @@
+body {
+  font-size: 1.125rem;
+  color: #707070;
+  margin: 0;
+}
+
+h1 {
+  font-size: 3rem;
+  font-family: 'Secular One', sans-serif;
+  color: #312614;
+  text-align: center;
+}
+
+h1 span {
+  color: #B7832F;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-family: 'Secular One', sans-serif;
+}
+
+p {
+  font-family: 'Quicksand', sans-serif;
+  margin-top: 0;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  width: 90%;
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.columns {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 1em 0;
+}
+
+@media (max-width: 600px) {
+  .columns {
+    flex-direction: column;
+  }
+}
+
+.col-bg {
+  background: #312614;
+  color: #fff;
+  padding: 1em;
+}
+
+.col-1 {
+  width: 20%;
+}
+
+.col-2 {
+  width: 45%;
+}
+
+.col-3 {
+  width: 70%;
+}
+
+@media (max-width: 600px) {
+  .col {
+    width: 100%;
+  }
+}
